@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Querying Flickr Service With TypeScript"
+    />
+    <meta name="author" content="Hüseyin Küçük" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Querying Flickr Service With TypeScript</title>
+  </head>
+  <body>
+    <!-- Page Content -->
+    <div class="container">
+      <form class="mb-5 mt-5">
+        <div class="form-row">
+          <div class="col">
+            &nbsp;
+          </div>
+          <div class="col-9">
+            <p id="loading-messagge" class="align-bottom text-right d-none text-success">Loading...</p>
+          </div>
+          <div class="col">
+            &nbsp;
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            &nbsp;
+          </div>
+          <div class="col-9">
+            <input
+              id="text-search"
+              class="form-control form-control-lg"
+              type="text"
+              placeholder="Search..."
+            />
+          </div>
+          <div class="col">
+            &nbsp;
+          </div>
+        </div>
+      </form>
+
+      <div id="image-container" class="row text-center text-lg-left"></div>
+    </div>
+    <!-- /.container -->
+    <script src="./src/main.ts"></script>
+  </body>
+</html>
